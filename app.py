@@ -4,14 +4,13 @@ from flask import *
 app=Flask(__name__,template_folder='templates')
 
 
-
 @app.route('/')
 def upload():
     return render_template("index.html", data={})
 
 @app.route('/save', methods=["POST", "GET"])
 def save_btn():
-    id = "123 OK"
+    id = "5545070646788096"
     data = request.form['data']
     print(json.loads(data))
 
