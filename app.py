@@ -1,8 +1,10 @@
 from flask import *
-
+import time
 
 app=Flask(__name__,template_folder='templates')
 
+c = 0 # global variable
+idG = int(time.time())
 
 @app.route('/')
 def upload():
@@ -10,7 +12,8 @@ def upload():
 
 @app.route('/save', methods=["POST", "GET"])
 def save_btn():
-    id = "123"
+    id = idG
+
     data = request.form['data']
     print(json.loads(data))
 
