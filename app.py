@@ -11,7 +11,7 @@ def upload():
 
 @app.route('/save', methods=["POST", "GET"])
 def save_btn():
-    id = 1
+    id = 123
     data = request.form['data']
     print(json.loads(data))
 
