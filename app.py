@@ -35,7 +35,7 @@ def save_btn():
 def load_song(id=None):
     with open(f'./savesong/song_{id}.json') as fp:
         data = json.load(fp)
-    return render_template('index.html'),data
+    return render_template('index.html'), 200
 
 @app.route('/data/<id>', methods=["POST", "GET"])
 def load_song_data(id=None):
