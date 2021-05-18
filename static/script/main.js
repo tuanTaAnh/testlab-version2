@@ -28496,6 +28496,8 @@ and limitations under the License.
         onRemoveNote(t) {
             var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}
               , {instrument: n, pos: i} = this.indexToInstrument(t);
+            console.log("REMOVE ON: ", t);
+            chossennotes.remove(t.x, t.y);
             n.removeNote(i) && (e && e.isDeleteKey && this.emit("play-delete-sound"),
             this.emit("song-changed"))
         }
@@ -28983,6 +28985,21 @@ and limitations under the License.
             });
         }
 
+        remove(x, y)
+        {
+            console.log("Remove  ", x, " ", y);
+            var index = -1;
+            for(var i = 0;i < this.notes.length;i++)
+            {
+                console.log("this.notes  ", this.notes[i].x, " ", this.notes[i].y);
+                if(x == this.notes[i].x && y == this.notes[i].y)
+                {
+                    console.log("Remove successfully ", x, " ", y);
+                    this.notes.splice(i, 1);
+                }
+            }
+
+        }
 
         length()
         {
@@ -29012,6 +29029,20 @@ and limitations under the License.
                 x: x,
                 y: y,
             });
+        }
+
+        remove(x, y)
+        {
+            var index = -1;
+            for(var i = 0;i < this.notes.length;i++)
+            {
+                if(x == this.notes[i].x && y == this.notes[i].y)
+                {
+                    console.log("Remove successfully ", x, " ", y);
+                    this.notesarray.splice(index, 1);
+                }
+            }
+
         }
 
 
