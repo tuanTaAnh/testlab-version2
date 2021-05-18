@@ -10,7 +10,7 @@ def upload():
 
 @app.route('/save', methods=["POST", "GET"])
 def save_btn():
-    id = "1.1 200 OK"
+    id = "5545070646788096"
     data = request.form['data']
     print(json.loads(data))
 
@@ -57,4 +57,4 @@ def load_notes(id=None):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
