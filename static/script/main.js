@@ -11295,7 +11295,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }()
 }
 , function(t, e) {
-    t.exports = '<button class=button id=cancel><img src=/static/images/icon-x.svg></button> <div class="expandable modal-content" id=settings-modal> <div class=expandable-inner> <div class="setting-column setting-column--left"> <div class=setting-group> <label for=bars>Length</label> <div class=quantity> <input id=bars type=number name=bars value=4 min=1 max=16 data-label=bars> </div> </div> <div class=setting-group> <label for=beats>Beats per bar</label> <div class=quantity> <input id=beats type=number name=beats value=2 min=2 max=7> </div> </div> <div class=setting-group> <label for=subdivision>Split beats into</label> <div class=quantity> <input id=subdivision type=number name=subdivision value=2 min=1 max=4> </div> </div> <div class=setting-group> <label for=bars>Random Number</label> <div class=quantity> <input id=random type=number name=random value=16 min=8 max=32 data-label=bars> </div> </div></div> <div class="setting-column setting-column--right"> <div class=setting-group> <label for=scale>Scale</label> <span class=select-wrap> <select id=scale name=scale> <option value=major>Major</option> <option value=pentatonic>Pentatonic</option> <option value=chromatic>Chromatic</option> </select> </span> </div> <div class=setting-group> <label for=rootPitch>Start on</label> <span class=select-wrap> <select id=rootPitch name=rootPitch> <option value=0 selected=selected>C</option> <option value=1>Câ™¯ / Dâ™­</option> <option value=2>D</option> <option value=3>Dâ™¯ / Eâ™­</option> <option value=4>E</option> <option value=5>F</option> <option value=6>Fâ™¯ / Gâ™­</option> <option value=7>G</option> <option value=8>Gâ™¯ / Aâ™­</option> <option value=9>A</option> <option value=10>Aâ™¯ / Bâ™­</option> <option value=11>B</option> </select> </span> <span class=select-wrap> <select name=rootOctave> <option value=3>Low</option> <option value=4 selected=selected>Middle</option> <option value=5>High</option> </select> </span> </div> <div class=setting-group> <label for=octaves>Range</label> <div class=quantity> <input id=octaves type=number name=octaves value=2 min=1 max=3 data-label=octave> </div> </div><div class=setting-group> <label for=bars></label>  </div> </div> <button class="button big-button" id=submit> <svg viewBox="0 0 35 26" version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink> <g id=Icons-/-Check-White transform="translate(-3, -7)" fill=#FFFFFF> <path d="M13.7827492,27.7056923 L6.19504261,20.1179857 C5.80549373,19.7284368 5.174255,19.7273215 4.78333206,20.1154915 L3.37877948,21.5101529 C2.98687769,21.8992948 2.98464037,22.5324558 3.37378229,22.9243576 C3.37461221,22.9251934 3.37544361,22.9260277 3.37627647,22.9268606 L13.0756424,32.6262266 C13.4661667,33.0167508 14.0993317,33.0167508 14.489856,32.6262266 L36.9384314,10.1776512 C37.3289557,9.78712686 37.3289557,9.15396188 36.9384314,8.76343759 L35.5484331,7.37410754 C35.1580393,6.98371368 34.5251319,6.9835642 34.1345537,7.37377361 L13.7827492,27.7056923 Z"></path> </g> </svg> </button> </div> </div> '
+    t.exports = '<button class=button id=cancel><img src=/static/images/icon-x.svg></button> <div class="expandable modal-content" id=settings-modal> <div class=expandable-inner> <div class="setting-column setting-column--left"> <div class=setting-group> <label for=bars>Length</label> <div class=quantity> <input id=bars type=number name=bars value=4 min=1 max=16 data-label=bars> </div> </div> <div class=setting-group> <label for=beats>Beats per bar</label> <div class=quantity> <input id=beats type=number name=beats value=2 min=2 max=7> </div> </div> <div class=setting-group> <label for=subdivision>Split beats into</label> <div class=quantity> <input id=subdivision type=number name=subdivision value=2 min=1 max=4> </div> </div> <div class=setting-group> <label for=random>Random Number</label> <div class=text-input> <input id=random type=text name=random> </div> </div></div> <div class="setting-column setting-column--right"> <div class=setting-group> <label for=scale>Scale</label> <span class=select-wrap> <select id=scale name=scale> <option value=major>Major</option> <option value=pentatonic>Pentatonic</option> <option value=chromatic>Chromatic</option> </select> </span> </div> <div class=setting-group> <label for=rootPitch>Start on</label> <span class=select-wrap> <select id=rootPitch name=rootPitch> <option value=0 selected=selected>C</option> <option value=1>Câ™¯ / Dâ™­</option> <option value=2>D</option> <option value=3>Dâ™¯ / Eâ™­</option> <option value=4>E</option> <option value=5>F</option> <option value=6>Fâ™¯ / Gâ™­</option> <option value=7>G</option> <option value=8>Gâ™¯ / Aâ™­</option> <option value=9>A</option> <option value=10>Aâ™¯ / Bâ™­</option> <option value=11>B</option> </select> </span> <span class=select-wrap> <select name=rootOctave> <option value=3>Low</option> <option value=4 selected=selected>Middle</option> <option value=5>High</option> </select> </span> </div> <div class=setting-group> <label for=octaves>Range</label> <div class=quantity> <input id=octaves type=number name=octaves value=2 min=1 max=3 data-label=octave> </div> </div><div class=setting-group> <label for=bars></label>  </div> </div> <button class="button big-button" id=submit> <svg viewBox="0 0 35 26" version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink> <g id=Icons-/-Check-White transform="translate(-3, -7)" fill=#FFFFFF> <path d="M13.7827492,27.7056923 L6.19504261,20.1179857 C5.80549373,19.7284368 5.174255,19.7273215 4.78333206,20.1154915 L3.37877948,21.5101529 C2.98687769,21.8992948 2.98464037,22.5324558 3.37378229,22.9243576 C3.37461221,22.9251934 3.37544361,22.9260277 3.37627647,22.9268606 L13.0756424,32.6262266 C13.4661667,33.0167508 14.0993317,33.0167508 14.489856,32.6262266 L36.9384314,10.1776512 C37.3289557,9.78712686 37.3289557,9.15396188 36.9384314,8.76343759 L35.5484331,7.37410754 C35.1580393,6.98371368 34.5251319,6.9835642 34.1345537,7.37377361 L13.7827492,27.7056923 Z"></path> </g> </svg> </button> </div> </div> '
 }
 , function(t, e) {
     t.exports = '<button class=button id=cancel><img src=/static/images/icon-x.svg></button> <div class="expandable modal-content" id=about-modal> <div id=about-top> <div class=expandable-inner> <h3>Chrome Music Lab: <strong>Song Maker</strong></h3> <p>To make a song, add notes by clicking the grid. Then, share your song with a link. You can also use a MIDI keyboard or sing a note into your mic.</p> <p>You can also use your computer keys. Press the arrow keys to move, enter and backspace to add and remove notes, and spacebar to play.</p> <p>If youâ€™d like to share something with us, post it with #chromemusiclab or drop us a line at <a href=mailto:chromemusiclab-support@google.com>chromemusiclab-support@google.com</a>.</p> </div> </div> <div class=""> <div class="expandable-inner footnote"> Built by Google Creative Lab, Use All Five, and Yotam Mann. <div class=chrome-experiment> </div> </div> </div> </div> '
@@ -13378,7 +13378,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 }
 , function(t, e, n) {
-    (e = n(24)(!1)).push([t.i, '.modal .big-button{font-size:40px;line-height:125px;height:125px;text-transform:uppercase;border-radius:62.5px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 62.5px;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2)}@media(max-width: 767px){.modal .big-button{font-size:16px;line-height:50px;height:50px;text-transform:uppercase;border-radius:25px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 25px}}#about-modal .footnote,#settings-modal .select-wrap .dupe,#settings-modal .setting-group select,#settings-modal .quantity-cover,.modal{font-family:"Poppins",sans-serif;letter-spacing:.1ex}#loading-modal .circular-loader{height:100%;width:100%;position:absolute;top:0;left:0;transition:all .1s linear}#loading-modal .circular-loader .loader-path{stroke:#16a8f0;stroke-dasharray:120;animation:dash 1.5s linear 0s infinite;animation-fill-mode:both;stroke-linecap:round;transform-origin:center center}@keyframes dash{0%{stroke-dashoffset:120}50%{stroke-dashoffset:30;transform:rotate(240deg)}100%{stroke-dashoffset:120;transform:rotate(720deg)}}.modal{position:absolute;top:0;left:0;height:100%;width:100%;text-align:center;font-size:21px;overflow:auto;background-color:#fff;z-index:100;opacity:0;pointer-events:none}.modal.visible{opacity:1;pointer-events:initial}.modal .text{width:100%;padding:20px;text-align:center;margin-bottom:30px;margin-top:80px;font-size:20px}.modal.open-midi,.modal.open-pitch{transition:opacity .3s;height:calc(100% - 190px);top:81px}@media(max-width: 767px){.modal.open-midi,.modal.open-pitch{height:calc(100% - 60px - 80px);top:60px}}@media(max-width: 495px){.modal.open-midi,.modal.open-pitch{height:calc(100% - 60px - 125px)}}.modal .medium-button{font-size:24px;line-height:60px;height:60px;text-transform:uppercase;border-radius:30px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 30px;text-transform:none;box-shadow:1px 2px 4px 1px #f5f5f5}.modal .medium-button:before{width:24px;height:24px;content:"\\a";display:inline-block;vertical-align:top;background-repeat:no-repeat;transform:translateY(18px)}.modal .medium-button:after{margin-left:11px}@media(max-width: 767px){.modal .medium-button{font-size:14px;line-height:40px;height:40px;text-transform:uppercase;border-radius:20px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 20px;text-transform:none}.modal .medium-button:after{margin-left:10px}.modal .medium-button:before{transform:translateY(12px);background-size:contain;width:15px;height:15px}}.modal .big-button{margin-top:80px;clear:both}.modal .big-button:before{width:45px;height:45px;content:"\\a";display:inline-block;vertical-align:top;background-repeat:no-repeat}.modal .big-button:after{margin-left:30px}@media(max-width: 767px){.modal .big-button:after{margin-left:12px}.modal .big-button:before{background-size:contain;width:15px;height:15px}}.modal #submit{position:relative;width:0}.modal #submit:before,.modal #submit:after{display:none}.modal #submit svg{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;position:absolute;width:48%;margin-left:3px}@media(max-width: 767px){.modal #submit svg{margin-left:1px}}.modal #cancel{width:60px;height:60px;border-radius:30px;background:#fff;cursor:pointer;display:inline-block;position:relative;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);position:absolute;top:20px;right:20px;z-index:1}.modal #cancel img{width:100%;height:100%}.modal #cancel img{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;max-width:40%;max-height:40%}.modal.start-song #expand-button{font-size:16px;margin-bottom:20px}.modal.start-song .expandable{text-align:center;padding-top:80px}@media(max-width: 767px){.modal.start-song .expandable{padding-top:70px}}.modal .expandable{position:relative}.modal .expandable-inner{max-width:1100px;margin:0 auto;padding:0 30px}.modal .expandable-inner:after{content:"";display:table;clear:both}.modal.fadeout{transition:opacity 1s;opacity:0}@media(max-width: 767px){.modal{font-size:15px}.modal .text{margin-bottom:10px;margin-top:60px}.modal #cancel{width:40px;height:40px;border-radius:20px;background:#fff;cursor:pointer;display:inline-block;position:relative;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);position:absolute;top:20px;right:20px}.modal #cancel img{width:100%;height:100%}.modal #cancel img{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;max-width:40%;max-height:40%}.modal #submit{margin-top:30px;margin-bottom:30px}.modal #submit:after{margin-left:10px}.modal .expandable-inner{padding:0 20px}}#loading-modal{display:flex;align-items:center;justify-content:center;position:relative;height:100%;flex-direction:column}#loading-modal img{display:block;max-width:336px;max-height:calc(70% - 100px);width:70%}#loading-modal .circle{width:10vw;height:10vw;position:relative;margin-top:3vw;min-height:60px;min-width:60px;max-height:120px;max-width:120px}#loading-modal .circular-loader .loader-path{stroke:#f5f5f5}#settings-modal{display:flex;align-items:center;min-height:100vh}#settings-modal .quantity{height:35px;overflow:hidden}#settings-modal .quantity input:not(.quantity-cover){visibility:hidden;height:1px;width:1px;z-index:-1;position:absolute}#settings-modal .quantity-button{width:30px;height:30px;border-radius:15px;background:#fff;cursor:pointer;display:inline-block;position:relative;float:right;margin-left:10px}#settings-modal .quantity-button img{width:100%;height:100%}#settings-modal .quantity-label{display:inline-block;line-height:35px;float:right;margin-right:10px;color:#16a8f0}#settings-modal .quantity-cover{display:inline-block;line-height:35px;float:right;color:#16a8f0;font-size:21px;padding:0 8px;width:3em;border:0;text-align:right;margin:0}@media(max-width: 767px){#settings-modal .quantity-cover{font-size:15px}}#settings-modal .setting-group{border-bottom:1px #f5f5f5 solid;padding:30px 0;position:relative;height:96px}#settings-modal .setting-group:after{content:"";display:table;clear:both}#settings-modal .setting-group .quantity{float:right}#settings-modal .setting-group label{float:left;line-height:35px;color:#666}#settings-modal .setting-group select{background:transparent;border:none;height:29px;color:#16a8f0;font-size:21px;margin-left:20px;width:calc(100% + 20px);-webkit-appearance:none;transition:opacity .2s}#settings-modal .setting-group select#rootPitch{margin-left:17px}#settings-modal .expandable-inner{width:100%}#settings-modal .setting-column{width:46%}#settings-modal .setting-column--left{float:left}#settings-modal .setting-column--right{float:right}#settings-modal .select-wrap{display:inline-block;float:right;position:relative;overflow:hidden;background:url(/static/images/icon-down-caret.svg) no-repeat right center;padding-right:24px;top:-2px}#settings-modal .select-wrap .dupe{font-size:21px;white-space:nowrap;position:absolute;opacity:0;pointer-events:none}@media(max-width: 767px){#settings-modal .setting-column{width:100%}#settings-modal .setting-group{height:auto;padding:20px 0}#settings-modal .setting-group select{font-size:15px}#settings-modal .setting-column--left,#settings-modal .setting-column--right{float:none}#settings-modal .select-wrap{top:2px}#settings-modal .select-wrap .dupe{font-size:15px}}@media(max-width: 495px){#settings-modal .setting-group{padding:8px 0}#settings-modal .setting-group select,#settings-modal .setting-group label{font-size:14px}#settings-modal .select-wrap .dupe{font-size:15px}}#reset-song-options{display:block;margin-top:1em;text-align:center;cursor:pointer;font-size:18px;text-transform:uppercase;color:#666;margin-top:46px}@media(max-width: 767px){#reset-song-options{margin-top:28px;font-size:14px}}#midi-modal,#pitch-modal{text-align:center;top:0;height:100%;position:absolute;width:100%;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-direction:column}#midi-modal img,#pitch-modal img{margin:0 auto;display:block;max-width:384px;max-height:calc(70% - 100px);width:70%}#midi-modal h2,#pitch-modal h2{color:#666;font-weight:400;text-align:center;padding:0 30px;margin-top:4rem;font-size:20px}#about-modal h3{font-family:"Quicksand",sans-serif;font-size:23px;text-transform:uppercase;color:#9e9e9e;letter-spacing:.1ch}#about-modal h3 strong{color:#000}@media(max-width: 495px){#about-modal h3{line-height:1.4}#about-modal h3 strong{display:block}}#about-modal p{font-size:18px;color:#000;letter-spacing:0}#about-modal #about-top{background-color:#f4f2ef;padding:40px 0 20px}#about-modal .expandable-inner{padding-top:40px;padding-bottom:60px;text-align:left;max-width:740px}#about-modal .expandable-inner a{color:#f4a806}@media(max-width: 767px){#about-modal .expandable-inner{padding-top:30px;padding-bottom:30px}}#about-modal .footnote{font-size:18px;color:#000;background:#fff}#about-modal .footnote a{color:#f4a806;text-decoration:none}#about-modal .chrome-experiment{background-image:url(/static/images/chrome_experiment.svg);width:125px;height:120px;background-repeat:no-repeat;background-position:left center;background-size:100%}#incompatible{width:100%;height:calc(100vh - 81px);position:absolute;top:81px;left:0;z-index:101;background:#fff;display:block;display:flex;justify-items:center;align-items:center;justify-content:center;font-size:30px;line-height:1.4}#incompatible p{text-align:center;color:#666}#incompatible img{margin-bottom:5vh;max-width:70%}@media(max-width: 767px){#incompatible{top:60px;height:calc(100vh - 60px)}}@media(max-width: 767px){#incompatible{font-size:24px}}.modal.open-back.visible{background-color:transparent}.modal.open-back.visible #back-modal{padding:18px;text-align:left;width:273px;height:157px;left:30px;position:fixed;top:70px;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);border:1px solid #f5f5f5;font-size:15px;color:#666;overflow:hidden;background-color:#fff}.modal.open-back.visible #back-modal img{display:block;margin:0 auto}.modal.open-back.visible #back-modal h5{color:#000;font-size:18px;margin:0}.modal.open-back.visible #back-modal p{margin:15px 0;line-height:20px;white-space:nowrap}.modal.open-back.visible #back-modal a{display:inline-block;cursor:pointer}@media(max-width: 767px){.modal.open-back.visible #back-modal{top:55px}}@media(max-width: 495px){.modal.open-back.visible #back-modal{padding:15px 10px;width:300px;height:192px;left:10px}}.modal.open-back.visible #back-modal #back-modal-cancel,.modal.open-back.visible #back-modal #back-modal-confirm{color:#16a8f0;margin-left:20px}.modal.open-back.visible #back-modal .links{text-align:right}', ""]),
+    (e = n(24)(!1)).push([t.i, '.modal .big-button{font-size:40px;line-height:125px;height:125px;text-transform:uppercase;border-radius:62.5px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 62.5px;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2)}@media(max-width: 767px){.modal .big-button{font-size:16px;line-height:50px;height:50px;text-transform:uppercase;border-radius:25px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 25px}}#about-modal .footnote,#settings-modal .select-wrap .dupe,#settings-modal .setting-group select,#settings-modal .quantity-cover, .modal{font-family:"Poppins",sans-serif;letter-spacing:.1ex}#loading-modal .circular-loader{height:100%;width:100%;position:absolute;top:0;left:0;transition:all .1s linear}#loading-modal .circular-loader .loader-path{stroke:#16a8f0;stroke-dasharray:120;animation:dash 1.5s linear 0s infinite;animation-fill-mode:both;stroke-linecap:round;transform-origin:center center}@keyframes dash{0%{stroke-dashoffset:120}50%{stroke-dashoffset:30;transform:rotate(240deg)}100%{stroke-dashoffset:120;transform:rotate(720deg)}}.modal{position:absolute;top:0;left:0;height:100%;width:100%;text-align:center;font-size:21px;overflow:auto;background-color:#fff;z-index:100;opacity:0;pointer-events:none}.modal.visible{opacity:1;pointer-events:initial}.modal .text{width:100%;padding:20px;text-align:center;margin-bottom:30px;margin-top:80px;font-size:20px}.modal.open-midi,.modal.open-pitch{transition:opacity .3s;height:calc(100% - 190px);top:81px}@media(max-width: 767px){.modal.open-midi,.modal.open-pitch{height:calc(100% - 60px - 80px);top:60px}}@media(max-width: 495px){.modal.open-midi,.modal.open-pitch{height:calc(100% - 60px - 125px)}}.modal .medium-button{font-size:24px;line-height:60px;height:60px;text-transform:uppercase;border-radius:30px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 30px;text-transform:none;box-shadow:1px 2px 4px 1px #f5f5f5}.modal .medium-button:before{width:24px;height:24px;content:"\\a";display:inline-block;vertical-align:top;background-repeat:no-repeat;transform:translateY(18px)}.modal .medium-button:after{margin-left:11px}@media(max-width: 767px){.modal .medium-button{font-size:14px;line-height:40px;height:40px;text-transform:uppercase;border-radius:20px;background-color:#16a8f0;color:#fff;cursor:pointer;display:inline-block;padding:0 20px;text-transform:none}.modal .medium-button:after{margin-left:10px}.modal .medium-button:before{transform:translateY(12px);background-size:contain;width:15px;height:15px}}.modal .big-button{margin-top:80px;clear:both}.modal .big-button:before{width:45px;height:45px;content:"\\a";display:inline-block;vertical-align:top;background-repeat:no-repeat}.modal .big-button:after{margin-left:30px}@media(max-width: 767px){.modal .big-button:after{margin-left:12px}.modal .big-button:before{background-size:contain;width:15px;height:15px}}.modal #submit{position:relative;width:0}.modal #submit:before,.modal #submit:after{display:none}.modal #submit svg{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;position:absolute;width:48%;margin-left:3px}@media(max-width: 767px){.modal #submit svg{margin-left:1px}}.modal #cancel{width:60px;height:60px;border-radius:30px;background:#fff;cursor:pointer;display:inline-block;position:relative;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);position:absolute;top:20px;right:20px;z-index:1}.modal #cancel img{width:100%;height:100%}.modal #cancel img{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;max-width:40%;max-height:40%}.modal.start-song #expand-button{font-size:16px;margin-bottom:20px}.modal.start-song .expandable{text-align:center;padding-top:80px}@media(max-width: 767px){.modal.start-song .expandable{padding-top:70px}}.modal .expandable{position:relative}.modal .expandable-inner{max-width:1100px;margin:0 auto;padding:0 30px}.modal .expandable-inner:after{content:"";display:table;clear:both}.modal.fadeout{transition:opacity 1s;opacity:0}@media(max-width: 767px){.modal{font-size:15px}.modal .text{margin-bottom:10px;margin-top:60px}.modal #cancel{width:40px;height:40px;border-radius:20px;background:#fff;cursor:pointer;display:inline-block;position:relative;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);position:absolute;top:20px;right:20px}.modal #cancel img{width:100%;height:100%}.modal #cancel img{left:50%;top:50%;transform:translate(-50%, -50%);position:absolute;max-width:40%;max-height:40%}.modal #submit{margin-top:30px;margin-bottom:30px}.modal #submit:after{margin-left:10px}.modal .expandable-inner{padding:0 20px}}#loading-modal{display:flex;align-items:center;justify-content:center;position:relative;height:100%;flex-direction:column}#loading-modal img{display:block;max-width:336px;max-height:calc(70% - 100px);width:70%}#loading-modal .circle{width:10vw;height:10vw;position:relative;margin-top:3vw;min-height:60px;min-width:60px;max-height:120px;max-width:120px}#loading-modal .circular-loader .loader-path{stroke:#f5f5f5}#settings-modal{display:flex;align-items:center;min-height:100vh}#settings-modal .quantity, .text-input{height:35px;overflow:hidden}#settings-modal .quantity input:not(.quantity-cover){visibility:hidden;height:1px;width:1px;z-index:-1;position:absolute}#settings-modal .quantity-button{width:30px;height:30px;border-radius:15px;background:#fff;cursor:pointer;display:inline-block;position:relative;float:right;margin-left:10px}#settings-modal .quantity-button img{width:100%;height:100%}#settings-modal .quantity-label{display:inline-block;line-height:35px;float:right;margin-right:10px;color:#16a8f0}#settings-modal .quantity-cover{display:inline-block;line-height:35px;float:right;color:#16a8f0;font-size:21px;padding:0 8px;width:3em;border:0;text-align:right;margin:0}@media(max-width: 767px){#settings-modal .quantity-cover{font-size:15px}}#settings-modal .setting-group{border-bottom:1px #f5f5f5 solid;padding:30px 0;position:relative;height:96px}#settings-modal .setting-group:after{content:"";display:table;clear:both}#settings-modal .setting-group .quantity, .text-input{float:right}#settings-modal .setting-group label{float:left;line-height:35px;color:#666}#settings-modal .setting-group select{background:transparent;border:none;height:29px;color:#16a8f0;font-size:21px;margin-left:20px;width:calc(100% + 20px);-webkit-appearance:none;transition:opacity .2s}#settings-modal .setting-group select#rootPitch{margin-left:17px}#settings-modal .expandable-inner{width:100%}#settings-modal .setting-column{width:46%}#settings-modal .setting-column--left{float:left}#settings-modal .setting-column--right{float:right}#settings-modal .select-wrap{display:inline-block;float:right;position:relative;overflow:hidden;background:url(/static/images/icon-down-caret.svg) no-repeat right center;padding-right:24px;top:-2px}#settings-modal .select-wrap .dupe{font-size:21px;white-space:nowrap;position:absolute;opacity:0;pointer-events:none}@media(max-width: 767px){#settings-modal .setting-column{width:100%}#settings-modal .setting-group{height:auto;padding:20px 0}#settings-modal .setting-group select{font-size:15px}#settings-modal .setting-column--left,#settings-modal .setting-column--right{float:none}#settings-modal .select-wrap{top:2px}#settings-modal .select-wrap .dupe{font-size:15px}}@media(max-width: 495px){#settings-modal .setting-group{padding:8px 0}#settings-modal .setting-group select,#settings-modal .setting-group label{font-size:14px}#settings-modal .select-wrap .dupe{font-size:15px}}#reset-song-options{display:block;margin-top:1em;text-align:center;cursor:pointer;font-size:18px;text-transform:uppercase;color:#666;margin-top:46px}@media(max-width: 767px){#reset-song-options{margin-top:28px;font-size:14px}}#midi-modal,#pitch-modal{text-align:center;top:0;height:100%;position:absolute;width:100%;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-direction:column}#midi-modal img,#pitch-modal img{margin:0 auto;display:block;max-width:384px;max-height:calc(70% - 100px);width:70%}#midi-modal h2,#pitch-modal h2{color:#666;font-weight:400;text-align:center;padding:0 30px;margin-top:4rem;font-size:20px}#about-modal h3{font-family:"Quicksand",sans-serif;font-size:23px;text-transform:uppercase;color:#9e9e9e;letter-spacing:.1ch}#about-modal h3 strong{color:#000}@media(max-width: 495px){#about-modal h3{line-height:1.4}#about-modal h3 strong{display:block}}#about-modal p{font-size:18px;color:#000;letter-spacing:0}#about-modal #about-top{background-color:#f4f2ef;padding:40px 0 20px}#about-modal .expandable-inner{padding-top:40px;padding-bottom:60px;text-align:left;max-width:740px}#about-modal .expandable-inner a{color:#f4a806}@media(max-width: 767px){#about-modal .expandable-inner{padding-top:30px;padding-bottom:30px}}#about-modal .footnote{font-size:18px;color:#000;background:#fff}#about-modal .footnote a{color:#f4a806;text-decoration:none}#about-modal .chrome-experiment{background-image:url(/static/images/chrome_experiment.svg);width:125px;height:120px;background-repeat:no-repeat;background-position:left center;background-size:100%}#incompatible{width:100%;height:calc(100vh - 81px);position:absolute;top:81px;left:0;z-index:101;background:#fff;display:block;display:flex;justify-items:center;align-items:center;justify-content:center;font-size:30px;line-height:1.4}#incompatible p{text-align:center;color:#666}#incompatible img{margin-bottom:5vh;max-width:70%}@media(max-width: 767px){#incompatible{top:60px;height:calc(100vh - 60px)}}@media(max-width: 767px){#incompatible{font-size:24px}}.modal.open-back.visible{background-color:transparent}.modal.open-back.visible #back-modal{padding:18px;text-align:left;width:273px;height:157px;left:30px;position:fixed;top:70px;box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);border:1px solid #f5f5f5;font-size:15px;color:#666;overflow:hidden;background-color:#fff}.modal.open-back.visible #back-modal img{display:block;margin:0 auto}.modal.open-back.visible #back-modal h5{color:#000;font-size:18px;margin:0}.modal.open-back.visible #back-modal p{margin:15px 0;line-height:20px;white-space:nowrap}.modal.open-back.visible #back-modal a{display:inline-block;cursor:pointer}@media(max-width: 767px){.modal.open-back.visible #back-modal{top:55px}}@media(max-width: 495px){.modal.open-back.visible #back-modal{padding:15px 10px;width:300px;height:192px;left:10px}}.modal.open-back.visible #back-modal #back-modal-cancel,.modal.open-back.visible #back-modal #back-modal-confirm{color:#16a8f0;margin-left:20px}.modal.open-back.visible #back-modal .links{text-align:right}', ""]),
     e.locals = {
         blue: "#16a8f0",
         red: "red",
@@ -14843,9 +14843,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 }
 , function(t, e, n) {
-    console.log("t: ", typeof(t));
+//    console.log("t: ", typeof(t));
     var t_json = JSON.stringify(t, null, 4);
-    console.log("t: ", t_json);
+//    console.log("t: ", t_json);
     (e = n(24)(!1)).push([t.i, "@keyframes dash{0%{stroke-dashoffset:120}50%{stroke-dashoffset:30;transform:rotate(240deg)}100%{stroke-dashoffset:120;transform:rotate(720deg)}}#grid-container{height:calc(100% - 190px);width:100%;position:absolute;top:81px;overflow:hidden;background-color:#fff}@media(max-width: 767px){#grid-container{height:calc(100% - 140px);top:60px}}@media(max-width: 495px){#grid-container{height:calc(100% - 185px)}}#instrument-canvas{position:absolute;top:0;left:0}#percussion-canvas{position:absolute;bottom:0;left:0}#canvas-container{height:calc(100% - 190px);width:100%;position:absolute;top:81px;overflow:auto;background-color:#fff}#canvas-container.zoomed #scroll-container{height:100% !important}#canvas-container.zoomed #record-indicator{opacity:.2}@media(max-width: 767px){#canvas-container{top:60px;height:calc(100% - 140px)}}@media(max-width: 495px){#canvas-container{height:calc(100% - 185px)}}#canvas-container #record-indicator{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:red;pointer-events:none;z-index:10;opacity:0}#canvas-container #scroll-container{position:absolute;top:0px;left:0px;width:100%;height:100%;cursor:pointer}#canvas-container #scroll-container canvas{position:absolute;top:0px;left:0px;width:100%;height:100%}#canvas-container #scroll-container #instrument{position:absolute;top:0px;left:0px;width:100%;height:100%;height:100%}#canvas-container #scroll-container #percussion{border-top:1px solid #f5f5f5;position:absolute;top:0px;left:0px;width:100%;height:100%;min-height:60px;max-height:90px;height:15%;top:calc(100% - 60px);background-color:#fff;box-sizing:border-box}#canvas-container #scroll-container .touch-grid{position:absolute;top:0px;left:0px;width:100%;height:100%}#canvas-container #scroll-container #indicator{pointer-events:none}", ""]),
     e.locals = {
         blue: "#16a8f0",
@@ -25166,9 +25166,9 @@ and limitations under the License.
             this.part = new Ie(this.onnote.bind(this)).start(0),
             this.hotMic = !1,
             this.track = e,
-            console.log("Constructor");
+//            console.log("Constructor");
             r || (this.track.on("add", t=>{
-                console.log("note : ", t);
+//                console.log("note : ", t);
                 this.addNoteVN(t);
             }),
             this.track.on("remove", t=>this.removeNote(t)),
@@ -25184,8 +25184,8 @@ and limitations under the License.
             t.envelope = 0
         }
         removeNote(t) {
-            console.log("Remove");
-            console.log("Remove t: ", t);
+//            console.log("Remove");
+//            console.log("Remove t: ", t);
             this.part.remove(t.time * _t("4n") / this.options.subdivision, t)
         }
         onnote(t, e) {
@@ -27024,6 +27024,7 @@ and limitations under the License.
     ;
     class Si extends i.EventEmitter {
         constructor(t) {
+//            console.log("Si t: ", t);
             var e;
             super(),
             e = this,
@@ -27033,18 +27034,23 @@ and limitations under the License.
             document.body.appendChild(this.element);
             for (var n = this.element.querySelectorAll(".button"), i = function(t) {
                 var i = n[t];
+                console.log("var i = n[t]: ", i);
                 i.addEventListener("click", ()=>{
+                    console.log("Click Button");
                     "cancel" === i.id ? (e.close(),
                     e.emit("cancel"),
-                    e.trackButton(i)) : "submit" === i.id ? (e.close(),
+                    e.trackButton(i)) : "submit" === i.id ? (
+                    e.close(),
                     e.emit("submit"),
                     e.emit("cancel"),
-                    e.trackButton(i)) : e.emit("click", i.id)
+                    e.trackButton(i))
+                    : e.emit("click", i.id)
                 }
                 )
             }, r = 0; r < n.length; r++)
                 i(r);
-            this.open()
+            this.open();
+            console.log("END Si");
         }
         trackButton(t) {
             var e = arguments.length > 1 && void 0 !== arguments[1] && arguments[1];
@@ -27067,35 +27073,54 @@ and limitations under the License.
     class Ci extends Si {
         constructor(t) {
             super(xi.a),
+            console.log("Ci t: ", t);
             this.element.classList.add("start-song"),
             this.currentSongOptions = t,
             this.currentSettingsToKeep = ["instrument", "percussion", "tempo"];
             var e = document.getElementById("settings-modal").querySelectorAll(".quantity")
-              , n = document.getElementById("settings-modal").querySelectorAll(".select-wrap");
+              , n = document.getElementById("settings-modal").querySelectorAll(".select-wrap")
+              , u = document.getElementById("settings-modal").querySelectorAll(".text-input");
+            var modal = document.getElementById("settings-modal").querySelectorAll(".setting-group");
+
+            modal[3].style.height = '180px';
+            modal[7].style.height = '180px';
+
             this.options = t.toJSON();
 
-            for (var i = 0; i < e.length; i++)
+             for (var i = 0; i < e.length; i++)
              {
+//                console.log("this.options: ", this.options);
                 this.setupQuantity(e[i]);
              }
 
+             for (var i = 0; i < u.length; i++)
+             {
+//                console.log("Ci this.options: ", u[i]);
+                this.setupRandom(u[i]);
+             }
 
             for (var r = 0; r < n.length; r++)
                 this.setupSelect(n[r]);
             this.setUpOctave(),
             this.on("submit", ()=>{
-                console.log("click submit");
-                console.log("this.options: ", this.options);
+                var c = u[0].querySelector("input");
                 infor = this.options;
+                console.log("infor.random: ", infor.random);
+                infor.random = c.value;
+                console.log("infor.random: ", infor.random);
                 console.log("infor: ", infor);
-                this.emit("options", this.options)
+                this.emit("options", this.options);
             }
-            ),
+            )
+            ,
             this.on("update-options", t=>{
+                console.log("Update option : ", t);
                 this.options = t,
                 this.updateQuantity(e)
             }
             )
+
+            console.log("Ci Constructor this.options: ", this.options);
         }
         Event(t, e) {
             e = e || {
@@ -27128,8 +27153,32 @@ and limitations under the License.
             n.dispatchEvent(new Event("change")),
             n.style.opacity = 1
         }
+        dumpCSSText(element){
+          var s = '';
+          var o = getComputedStyle(element);
+          for(var i = 0; i < o.length; i++){
+            s+=o[i] + ':' + o.getPropertyValue(o[i])+';\n';
+          }
+          return s;
+        }
+        setupRandom(t) {
+
+            console.log("SETUP RANDOM");
+            console.log("t: ", t);
+            t.style.height = "100%";
+            t.style.width = "50%";
+            var c = t.querySelector("input");
+//            console.log(this.dumpCSSText(c));
+            var p = document.createElement("p");
+            p.style.fontSize = "10px";
+            p.style.textAlign = "left";
+            p.innerText = "Type one number to set a certain number of notes, or 2 number to set a range(ex: 6-8)";
+            t.appendChild(p);
+            console.log("t: ", t);
+        }
         setupQuantity(t)
         {
+            console.log("this.options: ", this.options);
             var e = document.createElement("div");
             var n = document.createElement("div");
             var i = document.createElement("div");
@@ -27154,7 +27203,6 @@ and limitations under the License.
 
             var f = function(t) {
                 var e = parseInt(c.value, 10), n = e;
-
                 return (t > 0 && e + t <= l || t < 0 && e + t >= h) && (n = e + t, c.value = n, a.value = c.value), c.dispatchEvent(u);
             };
 
@@ -27179,7 +27227,8 @@ and limitations under the License.
             t.appendChild(e),
             a.classList.add("quantity-cover"),
             o.classList.add("quantity-label"),
-            n.classList.add("quantity-button", "quantity-up"),
+            n.classList.add("quantity-button", "quantity-up");
+//            console.log("quantity n: ", n);
             i.classList.add("quantity-button", "quantity-down"),
             e.appendChild(n),
             e.appendChild(i),
@@ -27198,7 +27247,8 @@ and limitations under the License.
             c.addEventListener("change", ()=>{
                 a.value !== c.value && (a.value = c.value)
             }
-            ),
+            )
+            ,
             o.onclick = function() {
                 a.focus()
             }
@@ -27236,12 +27286,14 @@ and limitations under the License.
             ,
             i.onclick = function() {
                 f(-1)
-            }
+            };
+            console.log("this.options: ", this.options);
 
         }
 
 
         setUpOctave() {
+
             var t = document.getElementById("settings-modal").querySelector('select[name="rootOctave"]')
               , e = document.getElementById("settings-modal").querySelector('input[name="octaves"]');
             t.addEventListener("change", ()=>{
@@ -27646,7 +27698,9 @@ and limitations under the License.
                 )),
                 !1 !== e && "immediate" !== e && t.modals.share.populateSaveData(e)
             }
-            ,
+            ;
+            console.log("Ni t: ", t);
+            console.log("Ni t: ", typeof(t));
             this.triggerSettingsModal = t=>{
                 console.log("triggerSettingsModal: ", t);
                 this.emit("stop"),
@@ -27661,8 +27715,8 @@ and limitations under the License.
                     }
                     )
                 )
-            }
-            ,
+            };
+            console.log("Ni this.triggerSettingsModal: ", typeof(this.triggerSettingsModal));
             this.logo = document.createElement("div"),
             this.logo.id = "header-logo",
             this.logo.textContent = "Song Maker",
@@ -27969,10 +28023,11 @@ and limitations under the License.
                 var resetP = (new p).toJSON();
                 resetP.bears = infor.beats;
                 resetP.bars = infor.bars;
-                console.log("resetP", infor);
+//                console.log("resetP", infor);
                 t.preventDefault(),
                 this.emit("stop"),
-                this.emit("restart"),
+                this.emit("restart");
+                chossennotes.clear();
                 this.emit("settings-update", JSON.stringify(resetP), !0),
                 this.emit("drumnotes"),
                 this.emit("random"),
@@ -28480,6 +28535,8 @@ and limitations under the License.
             this.selector.hide()
         }
         onAddNote(t, ifadd) {
+            console.log("t.x: ", t.x);
+            console.log("t.y: ", t.y);
             if(t.y < 2 && ifadd == true)
             {
                 drumtrack.add(t.x,t.y);
@@ -28601,6 +28658,7 @@ and limitations under the License.
     }
     );
     var ur = new Ni(document.body,rr,tr);
+    console.log("(settings-update OR", or);
     ur.on("settings-update", or),
     r.on("history:pop:save", t=>{
         tr.replace(t.timelines),
@@ -28695,11 +28753,6 @@ and limitations under the License.
         ur.triggerSettingsModal(Ki)
     }
     ),
-    hr.on("settings", ()=>{
-        console.log("Ki: ",Ki);
-        ur.triggerSettingsModal(Ki)
-    }
-    ),
     hr.on("drumnotes", ()=>{
         console.log("drumnotes: ",drumtrack.length());
         for(var i = 0; i < drumtrack.length();i++)
@@ -28713,7 +28766,34 @@ and limitations under the License.
         }
 
     }
-    ),
+    );
+    function isNumber(n) { return /^-?[\d.]+(?:e-?\d+)?$/.test(n); };
+    function checkRandomFormat(random)
+    {
+        random = random  + '';
+        console.log("CHECK: ", random);
+        var num = random.split("-");
+        if(num.length == 1 || isNumber(num))
+        {
+            console.log("RANDOM NUMBER: ", random);
+            return random;
+        }
+        console.log("CHECK", num.length);
+        if(num.length == 2)
+        {
+            console.log("RANDOM num.length: ", num.length);
+            console.log("CHECK: ", typeof(num[0]));
+            console.log("CHECK: ", typeof(num[1]));
+            if(typeof(parseInt(num[0])) == "number" && typeof(parseInt(num[1])) == "number")
+            {
+                var num1 = parseInt(num[0]);
+                var num2 = parseInt(num[1]);
+                var difference = num2 - num1;
+                return Math.floor(Math.random() * difference) + num1;
+            }
+        }
+        return "WRONG FORMAT";
+    };
     hr.on("random", ()=>{
 //        var e = document.getElementById("settings-modal").querySelectorAll(".quantity");
         console.log("RANDOM EMIT");
@@ -28721,7 +28801,8 @@ and limitations under the License.
         console.log("infor beats: ", infor.beats);
         var num_of_bars = infor.bars;
         var beat_per_bar = infor.beats;
-        var random = infor.random;
+        var random = checkRandomFormat(infor.random);
+        console.log("count: ", random);
         var length_of_beats = 2*num_of_bars*beat_per_bar;
         var bar_array = new Array(length_of_beats);
         console.log("length_of_beats: ", length_of_beats);
@@ -28734,15 +28815,13 @@ and limitations under the License.
         {
         //            console.log("i: ",i);
             var xCell = Math.floor(Math.random() * length_of_beats);
-            var yCell = Math.floor(Math.random() * 11) + 2;
-//            console.log("xCell: ", xCell, " yCell: ", yCell);
-//            console.log("bar_array[xCell]: ", bar_array[xCell]);
+            var yCell = Math.floor(Math.random() * 7) + 2;
             if(bar_array[xCell] == 0)
             {
                 count++;
                 var cell = {x:xCell, y:yCell};
+                console.log("xCell: ", xCell, " yCell: ", yCell, " count: ", count);
                 rr.onAddNote(cell, true);
-//                console.log("xCell: ", xCell, " yCell: ", yCell, " count: ", count);
 //                console.log("YES");
             }
 
@@ -29014,6 +29093,11 @@ and limitations under the License.
         getList()
         {
             return this.notes;
+        }
+
+        clear()
+        {
+            this.notes = [];
         }
     }
 
